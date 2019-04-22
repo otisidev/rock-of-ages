@@ -1,3 +1,43 @@
-baseURL = ""
+baseURL = "/"
 languageCode = "en-us"
 title = "Rock of Ages"
+paginate = 6
+
+# Section page menu
+[params]
+  subtitle          = "Eletrical Equipments"
+  cover             = "images/cover-img.jpg"
+  description       = "Get Digital items in an affordable range. We are selling Premium Digital products for Business to Business & Business to Clients. If you have any question then please feel free to ask."
+  metaDespecription = "Eletrical Equipments"
+  customCSS         = [""]
+  RSSLink           = ""
+
+  logo              = "images/logo.png"
+  favicon           = "images/favicon.ico"
+
+# socail media profile usernames
+  twitterName       = "otisidev"
+  fbName            = "otisidev"
+
+  devsName          = "Looptrace"
+  devsWebsite       = "https://www.looptrace.com"
+
+  #Contact information
+  contactName             = ""
+  contactMainAddress      = ""
+  contactNumbers          = [""]
+  contactShopLocations    = [""]
+
+
+[permalinks]
+  products  = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Contact us"
+  url = "/contact"
+  weight = 200

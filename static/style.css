@@ -181,12 +181,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .btn-green:hover {
-    background: #79af36;
+    background: #CE232F;
     color: #fff
 }
 
 .btn-pink {
-    background: #ff3d5a;
+    background: #CE232F;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -197,7 +197,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .btn-pink:hover {
-    background: #eb2b48;
+    background: #CE232F;
     color: #fff
 }
 
@@ -347,16 +347,16 @@ td, th {
 }
 
 .page-item.active .page-link {
-    background-color: #ff3d5a;
-    border-color: #ff3d5a
+    background-color: #CE232F;;
+    border-color: #CE232F;
 }
 
 .page-link {
-    color: #ff3d5a
+    color: #CE232F;
 }
 
 .page-link:hover {
-    color: #ff3d5a
+    color: #CE232F;
 }
 
 .navbar {
@@ -404,13 +404,13 @@ td, th {
 }
 
 .navbar-1 ul li:hover a {
-    color: #505050;
+    color: #CE232F;;
     background: transparent
 }
 
 .navbar-1 .dropdown-item:focus, .navbar-1 .dropdown-item:hover {
     background: #fff;
-    color: #008cfe
+    color: #343a40
 }
 
 .navbar-1 ul>li:hover>a {
@@ -419,7 +419,7 @@ td, th {
 }
 
 .navbar-1 ul li ul.dropdown-menu>li:hover>a {
-    color: #008cfe;
+    color: #343a40;
     background: #fff
 }
 
@@ -448,7 +448,7 @@ td, th {
 
 .navbar-2 .dropdown-item:focus, .navbar-1 .dropdown-item:hover {
     background: #fff;
-    color: #008cfe
+    color: #343a40
 }
 
 .navbar-2 ul>li:hover>a {
@@ -457,7 +457,7 @@ td, th {
 }
 
 .navbar-2 ul li ul.dropdown-menu>li:hover>a {
-    color: #008cfe;
+    color: #343a40;
     background: #fff
 }
 
@@ -477,22 +477,22 @@ td, th {
 }
 
 .fixed-top ul li a:hover {
-    color: #008cfe;
+    color: #343a40;
     background: transparent
 }
 
 .fixed-top .dropdown-item:focus, .fixed-top .dropdown-item:hover {
     background: #fff;
-    color: #008cfe
+    color: #343a40
 }
 
 .fixed-top ul li ul.dropdown-menu>li:hover>a {
-    color: #008cfe;
+    color: #343a40;
     background: #fff
 }
 
 .fixed-top ul>li:hover>a {
-    color: #008cfe;
+    color: #343a40;
     background: transparent
 }
 
@@ -511,37 +511,37 @@ td, th {
 }
 
 .navbar-4 ul li a:hover {
-    color: #008cfe;
+    color: #343a40;
     background: transparent
 }
 
 .navbar-4 .dropdown-item:focus, .navbar-4 .dropdown-item:hover {
     background: #fff;
-    color: #008cfe
+    color: #343a40
 }
 
 .navbar-4 ul li ul.dropdown-menu>li:hover>a {
-    color: #008cfe;
+    color: #343a40;
     background: #fff
 }
 
 .navbar-4 ul>li:hover>a {
-    color: #008cfe;
+    color: #343a40;
     background: transparent
 }
 
 #particles-js {
     width: 100%;
     height: 100%;
-    background-color: #008cfe;
-    background-image: url('');
+    background-color: #1d1629;
+    background-image: url('images/banner-img.png');
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat
 }
 
 .header-1 {
-    background: #008cfe;
+    background: #1d1629;
     min-height: 700px;
     background-repeat: none;
     background-position: center;
@@ -569,7 +569,7 @@ td, th {
 }
 
 .header-2 {
-    background: #a23ef9;
+    background: #1d1629;
     min-height: 700px;
     background-repeat: none;
     background-position: center;
@@ -775,10 +775,10 @@ td, th {
 }
 
 .product-grid:hover {
-    box-shadow: 0 20px 150px #d6dee4;
-    -webkit-box-shadow: 0 20px 150px #d6dee4;
-    -webkit-transform: translateY(-4px);
-    transform: translateY(-4px)
+    box-shadow: 0 10px 10px #d6dee4;
+    -webkit-box-shadow: 0 10px 10px #d6dee4;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px)
 }
 
 .product-grid-text {
@@ -791,13 +791,13 @@ td, th {
 }
 
 .read-more i {
-    color: #ff3d5a;
+    color: #CE232F;;
     font-size: 18px
 }
 
 .on-sale {
     position: absolute;
-    background: #ff646c;
+    background: #CE232F;
     color: white;
     display: block;
     width: 200px;
@@ -839,7 +839,7 @@ td, th {
 }
 
 .portfolioFilter a.current {
-    color: #008cfe;
+    color: #343a40;
     font-weight: 700
 }
 
@@ -1058,7 +1058,7 @@ td, th {
     font-family: Icofont;
     float: left;
     margin-right: 10px;
-    color: #22d05d
+    color: #CE232F
 }
 
 .footer-bottom {
@@ -1091,11 +1091,15 @@ td, th {
 .footer-bottom-item ul li a i {
     font-size: 18px;
     color: #777
+  }
+
+.footer-bottom > a  {
+    color: #CE232F !important;
 }
 
 .footer-bottom-item ul li a:hover i {
     font-size: 18px;
-    color: #fff
+    color: #fff !important
 }
 
 .features {
@@ -1113,7 +1117,7 @@ td, th {
 }
 
 .features-cont .bg-2 {
-    background: #ff3d5a
+    background: #CE232F;
 }
 
 .features-cont .bg-3 {
@@ -1221,7 +1225,7 @@ td, th {
 }
 
 .services-cont .bg-2 {
-    color: #ff3d5a
+    color: #CE232F;
 }
 
 .services-cont .bg-3 {
@@ -1349,7 +1353,7 @@ td, th {
 }
 
 .blog-details-bottom ul li a:hover {
-    color: #008cfe;
+    color: #343a40;
     margin: 0 10px
 }
 
@@ -1388,7 +1392,7 @@ td, th {
 }
 
 .header-inner {
-    background: #a23ef9;
+    background: #1d1629;
     padding: 100px 0
 }
 
@@ -1404,13 +1408,16 @@ td, th {
     color: #fff;
     margin-bottom: 0
 }
+.header-inner .intro-text h6 a {
+    color: #CE232F;
+}
 
 .about-cont h4 {
     line-height: 30px
 }
 
 .about-rightbar {
-    background: #ff3d5a;
+    background: #CE232F;;
     padding: 30px 30px;
     margin: 0 30px;
     border-radius: 5px
@@ -1436,7 +1443,7 @@ td, th {
 }
 
 .about-cation {
-    background: #3d6ae8;
+    background: #1d1629;
     padding: 50px 0 30px
 }
 
@@ -1485,7 +1492,7 @@ td, th {
 }
 
 .counter-cont h2 {
-    color: #ff3d5a;
+    color: #CE232F;;
     font-size: 50px
 }
 
@@ -1532,7 +1539,7 @@ td, th {
 }
 
 .product-features span {
-    color: #2b45a0;
+    color: #CE232F;
     font-size: 18px
 }
 
@@ -1550,7 +1557,7 @@ td, th {
 .product-features ul li::before {
     content: "\eb61";
     font-family: Icofont;
-    color: #7fb33e
+    color: #CE232F
 }
 
 .product-features .btn {
@@ -1574,7 +1581,7 @@ td, th {
 }
 
 .section-video i {
-    color: #008cfe;
+    color: #343a40;
     text-align: center;
     font-size: 75px
 }
@@ -1609,4 +1616,35 @@ td, th {
 
 .clients-cont {
     margin: 20px auto
+}
+.text-ngn {
+  text-decoration: double line-through;
+}
+
+.dark-section {
+  background-color: #1d1629
+}
+.dark-section .about-cont p, .dark-section h1 ,.dark-section h2, .dark-section h3 {
+    color: #ccc;
+}
+
+.text-light  {
+  color: #ccc !important;
+}
+.text-pink {
+  color: #CE232F;
+}
+.nav-link:hover {
+  color: #CE232F !important;
+}
+a.text-pink   {
+    color: #CE232F !important;
+}
+
+a.text-pink : hover  {
+    color: rgb(34, 93, 93) !important;
+}
+
+.product-grid-text > h6 a: hover {
+  color: #CE232F !important;
 }

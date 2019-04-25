@@ -5,14 +5,15 @@ paginate = 6
 
 # Section page menu
 [params]
-  subtitle          = "Eletrical Equipments"
+  subtitle          = "Rock of Ages Eletrical Company"
   cover             = "images/cover-img.jpg"
-  description       = "Get Digital items in an affordable range. We are selling Premium Digital products for Business to Business & Business to Clients. If you have any question then please feel free to ask."
+  description       = "General eletrical merchants, gaints in rural eletrification both surface and under ground wiring such as: Transformers, Feeder Pillar Unit, Cables and Insulators"
   metaDespecription = "Eletrical Equipments"
   customCSS         = [""]
   RSSLink           = ""
+  tags              = ["shopping", "catalogue", "product catalogue", "ecommerce", "minimal", "responsive"]
 
-  logo              = "images/logo.png"
+  logo              = "images/logo-1.png"
   favicon           = "images/favicon.ico"
 
 # socail media profile usernames
@@ -25,12 +26,11 @@ paginate = 6
   #Contact information
   contactName             = ""
   contactMainAddress      = ""
-  contactNumbers          = [""]
+  contactNumber          = 2348037270490
   contactShopLocations    = [""]
 
-
 [permalinks]
-  products  = "/:slug/"
+  products  = "/product/:slug/"
 
 [[menu.main]]
   name = "Home"
@@ -38,6 +38,11 @@ paginate = 6
   weight = 200
 
 [[menu.main]]
-  name = "Contact us"
-  url = "/contact"
-  weight = 200
+  name = "Contact"
+  url = "/contact/"
+  weight = 150
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 90

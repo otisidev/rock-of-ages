@@ -1,0 +1,34 @@
+<h3>{{ .Title }}</h3>
+<h6>Price: <span class="text-ngn">N</span> <span>{{.Params.actualPrice}}</span></h6>
+<ul>
+  <li>Unite of Measurement is in {{.Params.uniteMeasure}}</li>
+  <li>Compare Price: <span class="text-ngn">N</span> {{.Params.comparePrice}}</li>
+  <li>Availablity Status :
+    {{if .Params.inStock}}
+    <span class="text-success"> In Stock</span>
+    {{else}}
+      <span class="text-muted"> Out of Stock</span>
+    {{end}}
+ </li>
+</ul>
+<p>{{ .Params.summary}}</p>
+<p>
+    {{ range $index, $element := .Params.options }}
+    <span>{{ $index | humanize }}</span>
+    <select class="select-{{ $index }}">
+       {{ range $element  }}
+        <option>{{ . }}</option>
+      {{ end }}
+    </select>
+    {{ end }}
+</p>
+<p>
+<a class="btn btn-md btn-green wow slideInLeft" href="tel:{{.Site.Params.contactNumber}}">Call Us</a> &nbsp; <a class="btn btn-md btn-pink wow slideInRight" href="/contact/">Message Us</a></p> 
+</p>
+
+<script>
+    var productActualPrice  = {{ .Params.actualPrice }}
+    var productComparePrice  = {{ .Params.comparePrice }}
+    var productInStock = {{ .Params.inStock }}
+    var productVariants = JSON.parse({{ .Params.variants | jsonify }})
+</script>

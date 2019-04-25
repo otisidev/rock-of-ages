@@ -1,0 +1,15 @@
+{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "products") }}
+<section class="section-padding-1 dark-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h2 class="section-title text-center text-light">Our Products</h2>
+      </div>
+      {{ range $paginator.Pages }}
+        <div class="col-md-4">
+            {{ partial "products/single/product-item.html" . }}
+        </div>
+      {{end}}
+    </div>
+  </div>
+</section>

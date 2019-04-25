@@ -1,0 +1,53 @@
+{{define "main"}}
+
+{{- partial "navigation4" . -}}
+
+{{partial "currentpage" .}}
+{{partial "about2" .  }}
+<section class="about-cation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+      	<h2>Contact {{.Site.Params.subtitle}}</h2>
+      </div>
+      <div class="col-md-3">
+      <div class="alignright"><a class="btn btn-lg btn-pink wow fadeInRight" href="{{$.Site.BaseURL}}{{"contact/"}}">
+        Write to Us
+        <i class="icofont icofont-long-arrow-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-padding-1">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="about-cont">
+          	<h4 class="wow fadeInUp">{{.Site.Data.about2.relatedCompany}}</h4>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-cont">
+                {{.Content}}
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row about-cont">
+                {{range .Site.Data.about2.offices}}
+                <div class="col-md-12">
+                  <h4> {{.position}}</h4>
+                    <p>{{.address}}</p>
+                </div>
+
+                {{end}}
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</section>
+{{end}}

@@ -1,0 +1,19 @@
+enabled: true
+list:
+  - name: "Agu Michael"
+    date:  Jue 05, 2018
+    content : Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+    image:  images/t-2.png
+    position: Purchase Manager
+
+  - name: Madubuko Okey
+    date:  Jue 05, 2018
+    content:  The feedback from the website has been fantastic and everyone has commented on how professional.
+    image: images/t-1.png
+    position: Sale Representative
+
+  - name: Yusuf Precious
+    date:  Jue 05, 2018
+    content:  The feedback from the website has been fantastic and everyone has commented on how professional.
+    image: images/t-2.png
+    position: Managing Director

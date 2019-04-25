@@ -1,0 +1,27 @@
+<section class="section-padding dark-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="about-cont">
+          <h3>{{.Site.Params.subtitle}}</h3>
+          {{range .Site.Data.about2.description}}
+            <p>{{.para}}</p>
+          {{end}}
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="about-rightbar">
+          <h4>Feel Free To Contact</h4>
+          <h6>
+            <i class="icofont icofont-send-mail"></i>
+            {{ .Site.Data.about2.email}}
+          </h6>
+            {{range .Site.Data.about2.contactNumbers}}
+                <h6><i class="{{.icon}}"></i> {{.info}}</h6>
+            {{end}}
+            <p>{{.Site.Data.about2.address}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

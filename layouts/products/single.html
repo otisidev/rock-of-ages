@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+{{ partial "navigation4" .}}
+
+{{ partial "currentpage" .}}
+<section class="section-padding-1">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-8">
+        <div class="product-details-image">
+          <img src="{{.Params.thumbnailImage | absURL}}" class="img-fluid" alt="{{.Title}}">
+        </div>
+      </div>
+    <div class="col-md-4">
+      <div class="product-features">
+          {{ partial "products/single/product-single-heading.html" . }}
+      </div>
+    </div>
+      </div>
+  </div>
+</section>
+<section class="section-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="product-details-cont text-center">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ partial "about3"  . }}
+<section class="section-padding-1">
+
+</section>
+{{ end }}

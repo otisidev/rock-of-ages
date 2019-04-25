@@ -1,0 +1,50 @@
+<footer class="footer dark-section">
+  <div class="container">
+    <div class="footer-top">
+      <div class="row">
+      	<div class="col-md-4">
+          <div class="footer-top-item"> <a class="navbar-brand" href="/">
+            <img class="logo" src="{{$.Site.BaseURL}}{{.Site.Params.logo}}" alt="{{.Site.Params.title}}"></a>
+            <p>
+              {{.Site.Params.description}}</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-top-item">
+            <h4>Quick Links</h4>
+            <ul>
+              {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+              <li><a href="{{ .Permalink }}">{{ .Title | title }}</a>
+              {{end}}
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="footer-top-item">
+            <h4>More </h4>
+            <ul>
+                <li><a href="{{$.Site.BaseURL}}{{"about/"}}">About</a></li>
+                <li><a href="{{$.Site.BaseURL}}{{"contact/"}}">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-bottom-item">
+            <p> Developed & managed by <a class="text-pink" href="{{.Site.Params.devsWebsite}}"> {{.Site.Params.devsName}} </a> Copyright @ 2019. All Rights Reserved.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+         	<div class="footer-bottom-item alignright">
+            <img class="pg" src="{{$.Site.BaseURL}}{{"/images/pg.png"}}" alt="Payment Gateways"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

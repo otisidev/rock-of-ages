@@ -1,0 +1,32 @@
+{{ if .Site.Data.testimonals.enabled}}
+<section class="section-padding-1">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h2 class="section-title text-center">What our Clients says about us</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      <div class="owl-carousel owl-theme">
+        {{ range .Site.Data.testimonals.list }}
+        <div class="item">
+          <div class="testimonial-cont">
+            <blockquote>
+              {{ .content}}</blockquote>
+            <div class="testimonial-client-img">
+              <img src="{{.image | absURL}}" class="rounded-circle" alt="{{.name}}"></div>
+            <div class="testimonial-client">
+              <h6>{{.name}}</h6>
+              <p>{{.position}}</p>
+            </div>
+          </div>
+        </div>
+        {{end}}
+
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

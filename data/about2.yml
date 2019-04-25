@@ -1,0 +1,24 @@
+enabled   : true
+heading   : Why choose us
+contactNumbers :
+  - icon : "icofont icofont-phone"
+    info  : "+2348037270490"
+    type  : Mobile
+
+  - icon  : "icofont icofont-stock-mobile"
+    info  : "+2347045976933"
+    type  : Phone
+email     : rockofagesltd@hotmail.com
+address   : "Head Office: DD 14, Alaba International Market, Near St. Patrick's Bus-stop Ojo, Lagos."
+description:
+  - para : 'General eletrical merchants, gaints in rural eletrification both surface and uder ground wiring such as Transformers, Feeder Pillar Unit, Cables and Insulators'
+  - para : 'Second paragraphy'
+  - para : 'Third paragraphy'
+relatedCompany: Purity Wire & Cable Company Limited
+
+offices:
+  - address: DD13 Alaba International Market Ojo, Lagos
+    position: Head Office
+
+  - address: BLOCK 31 NO 21 Alaba International Market Ojo, Lagos
+    position: Branch Office

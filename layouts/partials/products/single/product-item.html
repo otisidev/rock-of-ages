@@ -1,0 +1,23 @@
+<div class="product-grid wow fadeInUp">
+  <img class="img-fluid" src="{{.Params.thumbnailImage | absURL }}" alt="{{.Title}}">
+  <div class="product-grid-text">
+    <h6><a href="{{.RelPermalink}}">{{.Title}}</a></h6>
+
+      {{ if .Params.summary }}
+          <p>{{ .Params.summary | plainify | safeHTML | truncate 60 }}</p>
+      {{else}}
+          <p>{{ .Summary | plainify | safeHTML | truncate 60 }} </p>
+      {{end}}
+      {{if .Params.actualPrice }}
+        <p class="text-pink">
+          <strong><span class="text-ngn">N</span> {{.Params.actualPrice}} / <span>{{.Params.uniteMeasure}}</span></p></strong>
+        {{else}}
+        <p class="text-pink"><strong>No Price</strong></p>
+      {{end }}
+
+    <p>
+      <a class="btn btn-md btn-pink wow slideInLeft" href="{{.RelPermalink}}">
+        View
+        <i class="icofont icofont-long-arrow-right"></i></a></p>
+  </div>
+</div>

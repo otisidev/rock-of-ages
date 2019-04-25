@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Rock of Ages"
-paginate = 6
+paginate = 3
 
 # Section page menu
 [params]

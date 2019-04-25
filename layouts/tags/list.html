@@ -1,8 +1,25 @@
+
 {{ define "main" }}
 
 {{partial "navigation4" .}}
 
 {{partial "currentpage2" . }}
 
-  {{ partial "products/list/product-list.html" . }}
+<section class="section-padding-1">
+  {{ $path := index (last 1 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+  {{ if ne $path "tags"}}
+    <div class="container">
+      {{ partial "products/list/product-list.html" . }}
+      <p class="text-right">
+        <a title="back to tags" class="btn btn-md btn-pink" href="{{.Site.BaseURL}}{{"tags/"}}">
+          <i class="icofont icofont-arrow-left"></i>
+        </a>
+      </p>
+    </div>
+  {{else}}
+  <div class="container">
+    {{partial "tags-grid" .}}
+  </div>
+  {{end}}
+</section>
 {{ end }}

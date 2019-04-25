@@ -1,7 +1,7 @@
 ---
 title: "Electric Cable"
 date: "2019-04-24T09:06:11+01:00"
-tags: ["Cable"]
+tags: ["Armored Cable"]
 categories: ["Cable"]
 images: []
 thumbnailImage: "https://5.imimg.com/data5/HX/KH/MY-9898677/industrial-electric-cable-wire-500x500.jpg"

@@ -3,9 +3,21 @@
 {{partial "navigation4" .}}
 
 {{partial "currentpage" .}}
+<section class="section-padding-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        {{ partial "products/list/product-list.html" . }}
 
-{{ partial "products/list/product-list.html" . }}
+        {{ partial "pagination" .}}
+      </div>
+      <div class="col-md-3">
+        {{partial "tags-filter" .}}
+      </div>
+    </div>
+  </div>
+</section>
 
-{{ partial "pagination" .}}
+
 
 {{ end }}

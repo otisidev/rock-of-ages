@@ -1304,7 +1304,7 @@ td, th {
 .sidebar-item ul li::before {
     font-family: "Icofont";
     content: "\eb27";
-    color: #a23ef9;
+    color: #CE232F;
     font-size: 18px;
     margin: 0 3px 0 0
 }

@@ -5,11 +5,14 @@
       <div class="col-md-10">
         <h2 class="section-title text-center text-light">Our Products</h2>
       </div>
-      {{ range $paginator.Pages }}
+      {{ range first 6 $paginator.Pages }}
         <div class="col-md-4">
             {{ partial "products/single/product-item.html" . }}
         </div>
       {{end}}
+      <p class="mt-5">
+        <a class="btn btn-md btn-pink wow slideInUp" href="{{$.Site.BaseURL}}{{"products/"}}"> View All Products</a>
+      </p>
     </div>
   </div>
 </section>

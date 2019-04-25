@@ -1,7 +1,7 @@
 ---
 title: "Single Phase Feeder Panel"
 date: "2019-04-24T08:01:28+01:00"
-tags: ["Feeder Unite"]
+tags: ["Feeder Unite","Light","Street Light"]
 categories: ["Feeder Unite"]
 images: []
 thumbnailImage: "https://5.imimg.com/data5/YQ/DQ/MY-43867076/feeder-panel-500x500.jpg"

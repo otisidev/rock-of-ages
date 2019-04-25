@@ -1,7 +1,7 @@
 ---
 title: "Three Phase Power Transformer 10 MVA"
 date: "2019-04-24T07:53:53+01:00"
-tags: ["Transformer"]
+tags: ["Three Phase Transformer"]
 categories: ["Transformer"]
 images: []
 thumbnailImage: "https://5.imimg.com/data5/DI/BL/TU/SELLER-79359999/three-phase-electrical-transformer-500x500-500x500.jpg"

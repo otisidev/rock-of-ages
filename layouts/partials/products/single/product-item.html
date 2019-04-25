@@ -1,5 +1,7 @@
 <div class="product-grid wow fadeInUp">
-  <img class="img-fluid" src="{{.Params.thumbnailImage | absURL }}" alt="{{.Title}}">
+  <div class="text-center">
+    <img class="rounded mini-image" src="{{.Params.thumbnailImage | absURL }}" alt="{{.Title}}">
+  </div>
   <div class="product-grid-text">
     <h6><a href="{{.RelPermalink}}">{{.Title}}</a></h6>
 

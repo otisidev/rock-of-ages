@@ -1,7 +1,7 @@
 ---
 title: "Tesla Electric Power Transformer"
 date: "2019-04-24T06:41:15+01:00"
-tags: ["Transformer"]
+tags: ["Three Phase Transformer"]
 categories: ["Transformer"]
 images: ["https://5.imimg.com/data5/XI/OI/MY-26925221/electrical-transformer-500x500.jpg"]
 thumbnailImage: "https://5.imimg.com/data5/XI/OI/MY-26925221/electrical-transformer-500x500.jpg"

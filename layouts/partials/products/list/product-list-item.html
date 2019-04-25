@@ -7,7 +7,7 @@
             {{ if .Params.actualPrice }}
                 {{ $.Scratch.Set "minimumPrice" (.Params.actualPrice | string) }}
             {{ else }}
-                {{ $.Scratch.Set "minimumPrice" "999999999999999"}}                 
+                {{ $.Scratch.Set "minimumPrice" "999999999999999"}}
             {{ end }}
             {{ if .Params.inStock }}
                 {{ $.Scratch.Set "inStock" (.Params.inStock | string) }}
@@ -18,7 +18,7 @@
                 {{ $variantActualPrice := (.actualPrice | replaceRE "[^0-9.]+" "" | float )  }}
                 {{ $actualPrice := ($.Scratch.Get "minimumPrice" | replaceRE "[^0-9.]+" "" | float) }}
                 {{ if lt $variantActualPrice $actualPrice }}
-                    {{ $.Scratch.Set "minimumPrice" (.actualPrice | string)}} 
+                    {{ $.Scratch.Set "minimumPrice" (.actualPrice | string)}}
                     {{ $.Scratch.Set "isMinimumVariantPrice" "true"}}
                 {{ end }}
                 {{ if .inStock }}
@@ -26,7 +26,7 @@
                 {{ end }}
             {{ end }}
             {{ if eq ($.Scratch.Get "isMinimumVariantPrice") "true" }} From {{ end }}
-            {{ $.Scratch.Get "minimumPrice" }} 
+            {{ $.Scratch.Get "minimumPrice" }}
             {{ if not (eq ($.Scratch.Get "inStock") "true")}} <span class="font-weight-bold">— Sold Out</span> {{ end }}
         </span>
     </p>

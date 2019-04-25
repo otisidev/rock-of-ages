@@ -1,0 +1,18 @@
+
+<a href="{{.RelPermalink}}">
+  <div class="product-grid wow fadeInUp">
+    <div class="text-center">
+      <img class="rounded mini-image" src="{{.Params.thumbnailImage | absURL }}" alt="{{.Title}}">
+
+    </div>
+    <div class="product-grid-text">
+      <h6>{{.Title}}</h6>
+        {{if .Params.actualPrice }}
+          <p class="text-pink">
+            <strong><span class="text-ngn">N</span> {{.Params.actualPrice}} / <span>{{.Params.uniteMeasure}}</span></p></strong>
+          {{else}}
+          <p class="text-pink"><strong>No Price</strong></p>
+        {{end }}
+    </div>
+  </div>
+</a>

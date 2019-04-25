@@ -1648,3 +1648,7 @@ a.text-pink : hover  {
 .product-grid-text > h6 a: hover {
   color: #CE232F !important;
 }
+.mini-image {
+  max-height: 246px !important;
+  max-width: 246px !important;
+}

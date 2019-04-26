@@ -2,14 +2,14 @@
   <div class="container">
     <div class="footer-top">
       <div class="row">
-      	<div class="col-md-4">
+      	<div class="col-md-3">
           <div class="footer-top-item"> <a class="navbar-brand" href="/">
             <img class="logo" src="{{$.Site.BaseURL}}{{.Site.Params.logo}}" alt="{{.Site.Params.title}}"></a>
             <p>
               {{.Site.Params.description}}</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="footer-top-item">
             <h4>Quick Links</h4>
             <ul>
@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="footer-top-item">
             <h4>More </h4>
             <ul>
@@ -32,6 +32,15 @@
           </div>
         </div>
 
+<div class="col-md-3">
+  <div class="footer-top-item">
+    <h4>Contact Information</h4>
+    <p>{{.Site.Data.about2.address}}</p>
+    {{ range .Site.Data.about2.contactNumbers}}
+        <h6><i class="{{.icon}} text-pink"></i> {{.info}}</h6>
+    {{end}}
+  </div>
+</div>
       </div>
     </div>
     <div class="footer-bottom">

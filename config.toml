@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://roaec.netlify.com/"
 languageCode = "en-us"
 title = "Rock of Ages"
 paginate = 12

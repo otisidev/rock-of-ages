@@ -41,7 +41,7 @@
             <div class="col-md-6">
                 <h4><i class="icofont icofont-phone text-pink"> </i> Contact No</h4>
                 {{range .Site.Data.about2.contactNumbers}}
-                    <p><span class="text-muted">{{.type}}</span>: {{.info}}</p>
+                    <p><strong class="text-muted">{{.type}}</strong>: {{.info}}</p>
                     {{end}}
             </div>
             <div class="col-md-12">
@@ -49,7 +49,7 @@
               <p>{{.Site.Data.about2.address}}</p>
             </div>
           </div>
-          <h6 class="text-muted">Child Company</h6>
+          <h5 class="uppercase">Child Company</h5>
           <h3 class="text-pink">{{.Site.Data.about2.relatedCompany}}</h3>
           <hr class="text-pink">
           <div class="row">

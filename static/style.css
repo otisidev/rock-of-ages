@@ -83,7 +83,7 @@ html, body {
 }
 
 .section-padding-1 {
-    padding: 100px 0 70px;
+    padding: 80px 0 70px;
     overflow: hidden;
     background: #f6f9fc
 }
@@ -1661,4 +1661,7 @@ a.text-pink : hover  {
   font-weight: 500;
   font-family: 'Open sans', sans-serif;
   margin: .25em .4em;
+}
+.uppercase {
+  text-transform: uppercase !important;
 }

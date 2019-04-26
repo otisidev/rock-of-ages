@@ -1,7 +1,7 @@
 <h3>{{ .Title }}</h3>
 <h6>Price: <span class="text-ngn">N</span> <span>{{.Params.actualPrice}}</span></h6>
 <ul>
-  <li>Unite of Measurement is in {{.Params.uniteMeasure}}</li>
+  <li>Unit of Measurement is in {{.Params.uniteMeasure}}</li>
   <li>Compare Price: <span class="text-ngn">N</span> {{.Params.comparePrice}}</li>
   <li>Availablity Status :
     {{if .Params.inStock}}
@@ -23,7 +23,7 @@
     {{ end }}
 </p>
 <p>
-<a class="btn btn-md btn-green wow slideInLeft d-md-block d-lg-none" href="tel:{{.Site.Params.contactNumber}}">Call Us</a> &nbsp; <a class="btn btn-md btn-pink wow slideInRight" href="/contact/">Message Us</a></p> 
+<a class="btn btn-md btn-green wow slideInLeft d-md-block d-lg-none" href="tel:{{.Site.Params.contactNumber}}">Call Us</a> &nbsp; <a class="btn btn-md btn-pink wow slideInRight" href="/contact/">Message Us</a></p>
 </p>
 
 <script>

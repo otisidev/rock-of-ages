@@ -1,10 +1,9 @@
-<div class="sidebar-item">
-    <h4>Tags</h4>
-    <ul>
-        {{ range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-          <li>
-            <a  href="{{ .Permalink }}">{{ .Title | title }}</a>
-          </li>
-        {{end}}
-    </ul>
+<div class="container mb-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10 text-center">
+      {{ range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+        <a href="{{.Permalink}}"> <span class="badge badge-pink">{{ .Title | title }}</span> </a>
+      {{end}}
+    </div>
+  </div>
 </div>

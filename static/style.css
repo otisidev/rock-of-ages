@@ -1653,3 +1653,12 @@ a.text-pink : hover  {
   max-height: 246px !important;
   max-width: 246px !important;
 }
+.badge-pink {
+  background-color: #CE232F;
+  color: #fff;
+  font-size: .8em;
+  padding: 10px;
+  font-weight: 500;
+  font-family: 'Open sans', sans-serif;
+  margin: .25em .4em;
+}

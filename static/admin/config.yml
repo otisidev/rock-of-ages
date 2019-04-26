@@ -10,7 +10,7 @@ collections:
   - name:       "products"
     label:      "Product"
     create:     true
-    slug:       "{{year}}-{{slug}}"
+    slug:       "{{slug}}"
     folder:     "Content/products"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
@@ -23,4 +23,5 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", required: true}
       - {label: "Categories", name: "categories", widget: "list", required: true}
       - {label: "Summary", name: "summary", widget: "text", required: true}
+      - {label: "draft", name: "draft", widget: "hidden", default: false}
       - {label: "Body", name: "body", widget: "markdown"}

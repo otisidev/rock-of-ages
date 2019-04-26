@@ -1,6 +1,6 @@
 <div class="product-grid wow fadeInUp">
   <div class="text-center">
-    <img class="rounded mini-image" src="{{.Params.thumbnailImage | absURL }}" alt="{{.Title}}">
+    <img class="b-lazy rounded mini-image" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{.Params.thumbnailImage | absURL }}" alt="{{.Title}}"/>
   </div>
   <div class="product-grid-text">
     <h6><a href="{{.RelPermalink}}">{{.Title}}</a></h6>
@@ -18,7 +18,7 @@
       {{end }}
 
     <p>
-      <a class="btn btn-md btn-pink wow slideInLeft" href="{{.RelPermalink}}">
+      <a class="btn btn-pink btn-sm wow slideInLeft" href="{{.RelPermalink}}">
         View
         <i class="icofont icofont-long-arrow-right"></i></a></p>
   </div>

@@ -6,7 +6,7 @@ categories: ["Cable"]
 images: []
 thumbnailImage: "https://5.imimg.com/data5/HX/KH/MY-9898677/industrial-electric-cable-wire-500x500.jpg"
 actualPrice: 100.45
-comparePrice: ""
+comparePrice: 150.82
 inStock: true
 options: {}
 variants: []

@@ -114,7 +114,8 @@ a {
 }
 
 a:hover {
-    text-decoration: none
+    text-decoration: none;
+    color: #CE232F;
 }
 
 a:focus {
@@ -203,7 +204,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 blockquote::before, blockquote::after, q::before, q::after {
     content: '"';
-    color: #a23ef9;
+    color: #CE232F;
     font-size: 30px
 }
 

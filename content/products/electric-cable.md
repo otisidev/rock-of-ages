@@ -12,5 +12,6 @@ options: {}
 variants: []
 summary: "Electric Connection; number of cores, 234;Shape round; Insulation Material: Rubber; Conductor Material: Copper"
 uniteMeasure: "Meter"
+draft: false
 ---
 **Insert Product description here****

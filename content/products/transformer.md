@@ -12,6 +12,7 @@ options: {}
 variants: []
 summary: We have carved a unique niche in the industry by providing to our clients with an impeccable gamut of Electric Power Transformer within the specific time frame.
 uniteMeasure: "Piece"
+draft: false
 ---
 
 **Product Specification**

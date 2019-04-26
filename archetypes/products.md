@@ -12,5 +12,6 @@ options: {}
 variants: []
 summary: ""
 uniteMeasure: ""
+draft: false
 ---
 **Insert Product description here****

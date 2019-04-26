@@ -12,5 +12,6 @@ options: {}
 variants: []
 summary: "We are offering Shaft Insulators to our client and we assure satisfaction and quality of the product."
 uniteMeasure: "Piece"
+draft: false
 ---
 **Insert Product description here****

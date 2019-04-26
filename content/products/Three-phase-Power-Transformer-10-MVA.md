@@ -12,6 +12,7 @@ options: {}
 variants: []
 summary: "Mild Steel Three Phase Power Transformer 10 MVA, Output Voltage: 0.433 V"
 uniteMeasure: "Piece"
+draft: false
 ---
 ## Product Description
 We are offering Three-phase Power Transformer 10 MVA to our client and we assure satisfaction and quality of the product.

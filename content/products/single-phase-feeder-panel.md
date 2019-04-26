@@ -12,6 +12,7 @@ options: {}
 variants: []
 summary: "Feeder Panels are for Various industrial applications to provide reliable and effective Distribution service"
 uniteMeasure: "Piece"
+draft: false
 ---
 ### Product Description
 Feeder Panels are for Various industrial applications to provide reliable and effective Distribution service. Our panels are made with GEP standards.

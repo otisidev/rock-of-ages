@@ -15,6 +15,7 @@ categories:
 summary: >-
   The GW Series of outdoor high voltage isolate switch is a Single-phase AC
   frequency 50 Hz high voltage switch equipment
+draft: false
 ---
 ## Product Introduction:
 
@@ -23,5 +24,3 @@ The GW Series of outdoor high voltage isolate switch is a Single-phase AC freque
 ### Main technical parameters:
 
 TYPE	Rated voltage  kV
- 
-

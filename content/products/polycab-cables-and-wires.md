@@ -12,5 +12,6 @@ options: {}
 variants: []
 summary: "Polycab Cables And Wires, 230V, click on view for more information about this product."
 uniteMeasure: "Meter"
+draft: false
 ---
 **Insert Product description here****

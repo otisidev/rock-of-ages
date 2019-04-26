@@ -18,7 +18,7 @@ collections:
       - {label: "Thumbnail Image", name: "thumbnailImage", widget: "image", required: true}
       - {label: "Actual Price", name: "actualPrice", widget: "number", required: true}
       - {label: "Compare Price", name: "comparePrice", widget: "number", required: true}
-      - {label: "Unite of Measure", name: "uniteMeasure", widget: "string", required: true}
+      - {label: "Unit of Measure", name: "uniteMeasure", widget: "string", required: true}
       - {label: "In Stock", name: "inStock", widget: "boolean", default: true}
       - {label: "Tags", name: "tags", widget: "list", required: true}
       - {label: "Categories", name: "categories", widget: "list", required: true}

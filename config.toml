@@ -7,7 +7,7 @@ paginate = 12
 [params]
   subtitle          = "Rock of Ages Eletrical Company"
   cover             = "images/cover-img.jpg"
-  description       = "General electrical merchants, giant in rural electrification both surface and under ground wiring such as: Transformers, Feeder Pillar Unit, Cables and Insulators"
+  description       = "General electrical merchants, giant in rural electrification both surface and underground wiring such as: Transformers, Feeder Pillar Unit, Cables and Insulators"
   metaDespecription = "Transformers, Feeder Pillar Unit, Cables and Insulators, Alaba, Lagos, Ojo, Rock-of-Ages-Eletrical-Company, ROAEC"
   customCSS         = [""]
   RSSLink           = ""

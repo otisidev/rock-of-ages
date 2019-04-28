@@ -1649,9 +1649,9 @@ a.text-pink : hover  {
 .product-grid-text > h6 a: hover {
   color: #CE232F !important;
 }
-.mini-image {
-  max-height: 246px !important;
-  max-width: 246px !important;
+.image-container {
+  height: 16em;
+  overflow: hidden;
 }
 .badge-pink {
   background-color: #CE232F;
@@ -1664,4 +1664,8 @@ a.text-pink : hover  {
 }
 .uppercase {
   text-transform: uppercase !important;
+}
+
+.even-height {
+    display: inherit;
 }

@@ -1,7 +1,7 @@
 {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "products") }}
     <div class="row justify-content-center">
       {{ range $paginator.Pages }}
-        <div class="col-md-4">
+        <div class="col-md-4 even-height">
             {{ partial "products/single/product-item.html" . }}
         </div>
       {{end}}

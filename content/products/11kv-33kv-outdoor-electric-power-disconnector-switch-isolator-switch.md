@@ -1,10 +1,10 @@
 ---
-title: 11kv/33kv outdoor electric power disconnector switch isolator switch
+title: 11KV/33KV Outdoor Electric power Disconnector Switch Isolator Switch
 date: 2019-04-27T00:54:21.827Z
 thumbnailImage: /images/htb1c1afgwagskjjy0fgq6arqfxao.jpg
 actualPrice: 730000
 comparePrice: 740000
-uniteMeasure: Pieces
+uniteMeasure: Piece
 inStock: true
 tags:
   - isolator switch

@@ -16,7 +16,6 @@
               {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
               <li><a href="{{ .Permalink }}">{{ .Title | title }}</a>
               {{end}}
-
             </ul>
           </div>
         </div>
@@ -37,7 +36,7 @@
     <h4>Contact Information</h4>
     <p>{{.Site.Data.about2.address}}</p>
     {{ range .Site.Data.about2.contactNumbers}}
-        <h6><i class="{{.icon}} text-pink"></i> {{.info}}</h6>
+        <h6><i style="margin-right: 4px" class="{{.icon}} text-pink"></i> {{.info}}</h6>
     {{end}}
   </div>
 </div>

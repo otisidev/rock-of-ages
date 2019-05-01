@@ -9,7 +9,6 @@ inStock: true
 tags:
   - Transformer
   - 3 Phase Transformer
-  - ''
 categories:
   - Transformer
 summary: >-

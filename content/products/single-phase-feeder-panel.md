@@ -1,17 +1,20 @@
 ---
-title: "Single Phase Feeder Panel"
-date: "2019-04-24T08:01:28+01:00"
-tags: ["Feeder Unite","Light","Street Light"]
-categories: ["Feeder Unite"]
-images: []
-thumbnailImage: "https://5.imimg.com/data5/YQ/DQ/MY-43867076/feeder-panel-500x500.jpg"
+title: Single Phase Feeder Panel
+date: '2019-04-24T08:01:28+01:00'
+thumbnailImage: 'https://5.imimg.com/data5/YQ/DQ/MY-43867076/feeder-panel-500x500.jpg'
 actualPrice: 128817.68
-comparePrice: ""
+comparePrice: 138816
+uniteMeasure: Piece
 inStock: true
-options: {}
-variants: []
-summary: "Feeder Panels are for Various industrial applications to provide reliable and effective Distribution service"
-uniteMeasure: "Piece"
+tags:
+  - Feeder Unit
+  - Light
+  - Street Light
+categories:
+  - Feeder Unite
+summary: >-
+  Feeder Panels are for Various industrial applications to provide reliable and
+  effective Distribution service
 draft: false
 ---
 ### Product Description

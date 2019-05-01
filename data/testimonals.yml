@@ -2,18 +2,18 @@ enabled: true
 list:
   - name: "Agu Michael"
     date:  Jue 05, 2018
-    content : Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+    content : The quality is excellent, very good quality and very good packaging. Fast delivery too.
     image:  images/t-2.png
     position: Purchase Manager
 
   - name: Madubuko Okey
     date:  Jue 05, 2018
-    content:  The feedback from the website has been fantastic and everyone has commented on how professional.
+    content:  I am very happy and a fan of ROACE and your products because it's the best, I trust you and I will recommend you to all my friends.
     image: images/t-1.png
     position: Sale Representative
 
   - name: Yusuf Precious
     date:  Jue 05, 2018
-    content:  The feedback from the website has been fantastic and everyone has commented on how professional.
+    content:  We are very pleased with your products and appreciate your quick delivery. I wish you a prosperous business. Good day!
     image: images/t-2.png
     position: Managing Director

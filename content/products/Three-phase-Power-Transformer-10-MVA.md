@@ -5,7 +5,7 @@ tags: ["Three Phase Transformer"]
 categories: ["Transformer"]
 images: []
 thumbnailImage: "https://5.imimg.com/data5/DI/BL/TU/SELLER-79359999/three-phase-electrical-transformer-500x500-500x500.jpg"
-actualPrice: "5,568,540"
+actualPrice: "5568540"
 comparePrice: 00.00
 inStock: true
 options: {}

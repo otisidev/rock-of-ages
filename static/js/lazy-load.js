@@ -14,6 +14,15 @@ lazyLoad();
 window.addEventListener("scroll",_.throttle(lazyLoad,50));
 window.addEventListener("resize",_.throttle(lazyLoad,50));
 
+// numbers
+let numbers = [...document.querySelectorAll(".number")]
+function formatNumbers() {
+  numbers.forEach(num => {
+    const val = num.innerHTML;
+    num.innerHTML  = new Intl.NumberFormat('en-US', { maximumSignificantDigits: 3 }).format(val)
+  })
+}
+formatNumbers();
 // const option = {
 //   root: document.querySelector('.section-padding'),
 //   rootMargin: '0px 0px 200px 0px'

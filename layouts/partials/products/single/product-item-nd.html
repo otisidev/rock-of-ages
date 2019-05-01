@@ -9,7 +9,7 @@
       <h6>{{.Title}}</h6>
         {{if .Params.actualPrice }}
           <p class="text-pink">
-            <strong><span class="text-ngn">N</span> {{.Params.actualPrice}} / <span>{{.Params.uniteMeasure}}</span></p></strong>
+            <strong><span class="text-ngn">N</span> <span class="number">{{.Params.actualPrice}} </span>/ <span>{{.Params.uniteMeasure}}</span></p></strong>
           {{else}}
           <p class="text-pink"><strong>No Price</strong></p>
         {{end }}

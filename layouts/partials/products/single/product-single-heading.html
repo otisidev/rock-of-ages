@@ -1,9 +1,9 @@
 <h3>{{ .Title }}</h3>
-<h6>Price: <span class="text-ngn">N</span> <span>{{.Params.actualPrice}}</span></h6>
+<h6>Price: <span class="text-ngn">N</span> <span class="number">{{.Params.actualPrice}}</span></h6>
 <ul>
   <li>Unit of Measurement is in {{.Params.uniteMeasure}}</li>
-  <li>Compare Price: <span class="text-ngn">N</span> {{.Params.comparePrice}}</li>
-  <li>Availablity Status :
+  <li>Compare Price: <span class="text-ngn">N</span> <span class="number">{{.Params.comparePrice}}</span></li>
+  <li>Availablity Status:
     {{if .Params.inStock}}
     <span class="text-success"> In Stock</span>
     {{else}}

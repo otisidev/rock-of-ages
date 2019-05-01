@@ -5,7 +5,7 @@ tags: ["Feeder Unite","Light","Street Light"]
 categories: ["Feeder Unite"]
 images: []
 thumbnailImage: "https://5.imimg.com/data5/YQ/DQ/MY-43867076/feeder-panel-500x500.jpg"
-actualPrice: 128,817.68
+actualPrice: 128817.68
 comparePrice: ""
 inStock: true
 options: {}

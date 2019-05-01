@@ -11,7 +11,7 @@ tags:
   - Light
   - Street Light
 categories:
-  - Feeder Unite
+  - Feeder Unit
 summary: >-
   Feeder Panels are for Various industrial applications to provide reliable and
   effective Distribution service

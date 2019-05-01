@@ -102,7 +102,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 30px;
-    color: #777
+    color: #444
 }
 
 a {
@@ -1667,5 +1667,6 @@ a.text-pink : hover  {
 }
 
 .even-height {
-    display: inherit;
+    display: inherit !important;
+    min-height: 250px;
 }

@@ -3,17 +3,17 @@ list:
   - name: "Agu Michael"
     date:  Jue 05, 2018
     content : The quality is excellent, very good quality and very good packaging. Fast delivery too.
-    image:  images/t-2.png
+    image:  images/td-1.png
     position: Purchase Manager
 
   - name: Madubuko Okey
-    date:  Jue 05, 2018
+    date:  Jan 05, 2018
     content:  I am very happy and a fan of ROACE and your products because it's the best, I trust you and I will recommend you to all my friends.
-    image: images/t-1.png
+    image: images/td-1.png
     position: Sale Representative
 
   - name: Yusuf Precious
-    date:  Jue 05, 2018
+    date:  May 05, 2017
     content:  We are very pleased with your products and appreciate your quick delivery. I wish you a prosperous business. Good day!
-    image: images/t-2.png
+    image: images/td-1.png
     position: Managing Director

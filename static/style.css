@@ -1111,6 +1111,7 @@ td, th {
 .features-cont {
     margin: 0 auto 30px;
     overflow: hidden
+
 }
 
 .features-cont .bg-1 {
@@ -1179,7 +1180,8 @@ td, th {
     margin-bottom: 30px;
     box-shadow: 0 0 17px 0 rgba(0, 0, 0, .06);
     -webkit-box-shadow: 0 0 17px 0 rgba(0, 0, 0, .06);
-    overflow: hidden
+    overflow: hidden;
+    min-height: 250px
 }
 
 .testimonial-cont .testimonial-client-img {
@@ -1668,5 +1670,4 @@ a.text-pink : hover  {
 
 .even-height {
     display: inherit !important;
-    min-height: 250px;
 }

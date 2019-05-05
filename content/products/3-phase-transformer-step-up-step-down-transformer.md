@@ -20,9 +20,9 @@ summary: >-
 draft: false
 ---
 ## Product Description
-
+Oil immersed 100kva 3 phase transformer step up step down transformer. Since every country's voltage is different, our company can design and manufacture according to customer's requirements. Oil-immersed transformer is one of the important equipment in the supply and distribution system of industrial and mining enterprises and civil buildings.
 ### Overview
-**Quick Details**
+** Quick Details **
 
 **Place of Origin:**
 Jiangsu, China (Mainland)
@@ -55,5 +55,6 @@ Copper
 11
 
 ### Oil immersed 100kva 3 phase transformer step up step down transformer
+
 Since every country's voltage is different, our company can design and manufacture according to customer's requirements. Oil-immersed transformer is one of the important equipment in the supply and distribution system of industrial and mining enterprises and civil buildings. The high voltage winding adopts multi-layer cylindrical structure to balance the ampere-turns distribution of the windings, the leakage of magnetic flux is small, the mechanical strength is high, and the anti-short circuit capability is strong The iron core and windings have adopted the fastening measures respectively, the height of the device, the low-voltage lead and other fastening parts have self-locking anti-lock nut, which adopts the non-lifting structure and can withstand the shock of transportation The coil and iron core adopt vacuum drying, the oil of transformer adopts vacuum filter oil and oil filling process, which minimizes the moisture in the transformer.
 

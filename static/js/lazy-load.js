@@ -1,5 +1,6 @@
 let lazyImages= [...document.querySelectorAll(".b-lazy")]
 let inAdvance = 300;
+let key = "roaec_985";
 function lazyLoad() {
   // console.log(lazyImages.length)
   lazyImages.forEach(image => {
@@ -23,22 +24,15 @@ function formatNumbers() {
   })
 }
 formatNumbers();
-// const option = {
-//   root: document.querySelector('.section-padding'),
-//   rootMargin: '0px 0px 200px 0px'
-// }
-// /**
-//   Function
-// **/
-// function onInterSection(imagesEntities) {
-//   imagesEntities.forEach(image => {
-//     if(image.isIntersecting){
-//       observer.unoberve(image.target);
-//       image.target.src = image.target.dataset.src;
-//     }
-//   })
-// }
-//
-// let observer = new IntersectionObserver(onInterSection, option)
-//
-// lazyImages.forEach(image => observer.observe(image));
+
+function messageUs(name, price) {
+localStorage.setItem(key,JSON.stringify({name: name, price: price}))
+}
+
+function readLocalStorage() {
+  if(localStorage.getItem(key)) {
+    let = item = JSON.parse(localStorage.getItem(key));
+    document.getElementById("product").value = item.name + " @ " + new Intl.NumberFormat('en-US', { maximumSignificantDigits: 3 }).format(item.price);
+  }
+}
+readLocalStorage();
